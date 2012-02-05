@@ -1,0 +1,13 @@
+*******************************************************************************
+* canvas-based jquery-plugin progress bar
+******************************************************************************
+
+Instructions
+1. create a canvas element
+ <canvas id="prog"></canvas>
+2. init progress bar 
+ $('#prog').progressBar()
+3. start progress bar
+ $('#prog').progressBar('start')
+
+** see demo.html for more information

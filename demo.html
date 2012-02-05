@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="progress.js"></script>
+<script type="text/javascript" src="progbar-plugin.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//initProcessRunner();	   
+		//startProcessRunner(); 
+		$('#processRunner').progressBar();
+		
+		$('#start').click(function(){
+			$('#processRunner').progressBar('start');
+		});
+		
+		$('#stop').click(function(){
+			$('#processRunner').progressBar('stop');
+		});
+	});
+</script>
+</head>
+<body>
+<canvas id="processRunner" width="80" height="10"></canvas><br>
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+</body>
+</html>
