@@ -1,7 +1,7 @@
 /*
  ************************************************************
- *                   JQuery canvas-based progress bar plugin
- *  author: Tam Vu
+ *           JQuery canvas-based progress bar plugin
+ *  author: Tam Vu (tamvu89@gmail.com)
  *  version: 0.1
  *  desc: turn any canvas element into a progress bar
  ************************************************************
@@ -92,7 +92,7 @@
 					$.error("Element is not yet initialized");
 				}
 				else{
-					$cvs.css('display','hidden');
+					$cvs.css('display','none');
 					clearTimeout(data.timer);
 				}
 			});
